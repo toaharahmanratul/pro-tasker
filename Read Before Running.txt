@@ -1,0 +1,8 @@
+At client, install: "npm install @reduxjs/toolkit react-redux craco"
+At server, install: "npm init -y && npm install express mongoose nodemon cors bcrypt jsonwebtoken dotenv"
+
+Create a .env file inside server folder.
+Then at .env:
+PORT=4000
+MONGO_URL= include your mongodb url
+SECRET_KEY= your key
